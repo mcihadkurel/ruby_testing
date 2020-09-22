@@ -1,4 +1,4 @@
-# Project Name
+# Rspec testing Ruby
 
 > One paragraph statement about the project.
 
