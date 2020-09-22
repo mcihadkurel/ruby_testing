@@ -2,12 +2,7 @@ require_relative '../lib/calculator'
 
 describe Calculator do
   let(:calculator) { Calculator.new }
-
-  describe '#add' do
-    it 'returns the sum of 2 numbers' do
-      expect(calculator.add(33, 32)).to eql(65)
-    end
-
+  
     it 'returns the sum of more then 2 numbers' do
       expect(calculator.add(2, 9, 11)).to eql(22)
     end
